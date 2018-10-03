@@ -179,10 +179,6 @@ export default {
       this.timeCounter = null
     },
 
-    onCancel () {
-      this.$emit('onCancel')
-    },
-
     cameraChanged () {
       this.$emit('onCameraChanged')
       const preview = document.getElementById('preview')
